@@ -1,106 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-</head>
-<body>
-<div class="sub_body max-w-[1140px] font-custom mx-auto">
-
-    <!-- Header Start -->
-    <div class="flex justify-between mt-12">
-        <span class="block font-custom">Awlad.H</span>
-        <button class="block py-3 px-3 border">Download Resume</button>
-    </div>
-    <!-- Header End -->
-
-    <!-- Banner Start -->
-    <div>
-        <div class="text-center bg-slate-500 lg:h-[40rem] ">
-            <div class="w-44 mx-auto"><img src="assets/images/main-bos.png" alt="img"></div>
-            <h1 class="font-bold text-4xl mb-6">"In the near future, I hope to <br> become a Developer."</h1>
-            <p class="font-normal text-base mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br> Ipsum has been the industry's standard dummy text.</p>
-            <button class="bg-red-500">Contact with me</button>
-         </div>
-    </div>
-    <!-- Banner End -->
-
-    <!-- webdevelopment Start -->
-     <div>
-      <div class="text-center mt-14">
-        <h2 class="font-bold text-3xl">Why Web Development??</h2>
-        <p class="font-normal text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br> Ipsum has been the industry's standard dummy text.</p>
-      </div>
-      <div class="grid grid-cols-2 my-24 items-center">
-            <div class="mx-auto">
-                <h3 class="font-bold text-2xl">I will Do Coding and <br> Change The World</h3>
-                <p class="font-normal text-lg mt-4 mb-5">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
-                <button class="py-2 px-6 border">Learn More</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Developer</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+            body {
+                font-family: "Azeret Mono", monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sub_body max-w-[1140px] font-customs mx-auto">
+            <!-- Header Start -->
+            <div class="flex justify-between mt-9 mb-3 mx-4 items-center">
+                <span class="block font-custom"><a href="https://github.com/munir-hossin">Munir.H</a></span>
+                <button class="block py-3 px-3 border">Download Resume</button>
             </div>
-            <div class="mx-auto">
-                <img src="assets/images/webdevelop1.png" alt="img">
-            </div>
-      </div>
+            <!-- Header End -->
 
-    <div class="grid grid-cols-3">
-        <div class="mx-auto"><img src="assets/images/webdevelop2.png" alt="img"></div>
-        <div class="col-span-2">
-            <h2>I will help People by creating Modern Web System</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button class="py-2 px-6 border">Learn More</button>
+            <!-- Banner Start -->
+            <div>
+                <div class="text-center px-4 py-8" style="background-image: url('assets/images/main.png');">
+                    <div class="w-44 mx-auto"><img src="assets/images/main-bos.png" alt="img" /></div>
+                    <h1 class="font-bold text-4xl mb-6">
+                        "In the near future, I hope to <br />
+                        become a Developer."
+                    </h1>
+                    <p class="font-normal text-base mb-5">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br />
+                        Ipsum has been the industry's standard dummy text.
+                    </p>
+                    <button class="py-2 px-5 bg-slate-950 text-white font-medium rounded-md">Contact with me</button>
+                </div>
+            </div>
+            <!-- Banner End -->
+
+            <!-- webdevelopment Start -->
+            <div class="bg-gray-50 px-5 py-5 mt-10">
+                <div class="text-center mt-14">
+                    <h2 class="font-bold text-3xl">Why Web Development??</h2>
+                    <p class="font-normal text-lg">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br />
+                        Ipsum has been the industry's standard dummy text.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 my-24 items-center bg-gradient-to-r from-white to-gray-50">
+                    <div class="mx-auto">
+                        <h3 class="font-bold text-2xl">
+                            I will Do Coding and <br />
+                            Change The World
+                        </h3>
+                        <p class="font-normal text-lg mt-3 mb-5 text-gray-500">
+                            Lorem Ipsum is simply dummy text of the <br />
+                            printing and typesetting industry.
+                        </p>
+                        <button class="py-2 px-6 border border-gray-400 font-medium">Learn More</button>
+                    </div>
+                    <div class="mx-auto">
+                        <img src="assets/images/webdevelop1.png" alt="img" />
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 bg-gradient-to-l from-white to-gray-50">
+                    <div class="mx-auto"><img src="assets/images/webdevelop2.png" alt="img" /></div>
+                    <div class="col-span-2">
+                        <h2 class="font-bold text-2xl">
+                            I will help People by creating <br />
+                            Modern Web System
+                        </h2>
+                        <p class="font-normal text-lg mt-3 mb-5 text-gray-500">
+                            Lorem Ipsum is simply dummy text of the <br />
+                            printing and typesetting industry.
+                        </p>
+                        <button class="py-2 px-6 border border-gray-400">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 my-24 items-center bg-gradient-to-r from-white to-gray-50">
+                    <div class="mx-auto">
+                        <h3 class="font-bold text-2xl">
+                            I will Do Coding and <br />
+                            Change The World
+                        </h3>
+                        <p class="font-normal text-lg mt-3 mb-5 text-gray-500">
+                            Lorem Ipsum is simply dummy text of the <br />
+                            printing and typesetting industry.
+                        </p>
+                        <button class="py-2 px-6 border border-gray-400 font-medium">Learn More</button>
+                    </div>
+                    <div class="mx-auto">
+                        <img src="assets/images/webdevelop1.png" alt="img" />
+                    </div>
+                </div>
+            </div>
+            <!-- webdevelopment End -->
+
+            <!-- My Inspiration Start -->
+            <div class="mx-4">
+                <div class="text-center mt-14">
+                    <h2 class="font-bold text-3xl">My Inspiration</h2>
+                    <p class="font-normal text-lg pt-5 pb-7">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br />
+                        Ipsum has been the industry's standard dummy text.
+                    </p>
+                </div>
+                <div class="mx-auto">
+                    <div class="aspect-w-16 aspect-h-9 border rounded-md p-6 md:h-[38rem]">
+                        <iframe
+                            class="rounded-md"
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/Cxf5sOXG0w0?si=aAC9R3pSFKan3ywL"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- My Inspiration End -->
+
+            <!-- My Current Target Start -->
+            <div class="py-14 mt-14 mx-4">
+                <div class="text-center">
+                    <h2 class="font-bold text-3xl">My Current Target</h2>
+                    <p class="pt-6 pb-10 font-normal text-lg">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br />
+                        Ipsum has been the industry's standard dummy text.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                    <div class="border p-8 bg-red-50">
+                        <div><img src="assets/images/html.png" alt="img" /></div>
+                        <h3 class="font-bold text-2xl my-3">HTML</h3>
+                        <p class="font-normal mb-3">
+                            Lorem Ipsum is simply dummy <br />
+                            text of the printing.
+                        </p>
+                        <a class="border-b-2 border-b-gray-900" href="#" class="text-blue-500">Learn More</a>
+                    </div>
+                    <div class="border p-8 bg-blue-50">
+                        <div><img src="assets/images/css.png" alt="img" /></div>
+                        <h3 class="font-bold text-2xl my-3">HTML</h3>
+                        <p class="font-normal mb-3">
+                            Lorem Ipsum is simply dummy <br />
+                            text of the printing.
+                        </p>
+                        <a class="border-b-2 border-b-gray-900" href="#" class="text-blue-500">Learn More</a>
+                    </div>
+                    <div class="border p-8 bg-yellow-50">
+                        <div><img src="assets/images/js.png" alt="img" /></div>
+                        <h3 class="font-bold text-2xl my-3">HTML</h3>
+                        <p class="font-normal mb-3">
+                            Lorem Ipsum is simply dummy <br />
+                            text of the printing.
+                        </p>
+                        <a class="border-b-2 border-b-gray-900" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- My Current Target End -->
+
+            <!-- My next Target Start -->
+            <div class="mx-4">
+                <div class="text-center">
+                    <h2 class="font-bold text-3xl">My Next Target</h2>
+                    <p class="pt-8 pb-10 font-normal text-lg">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br />
+                        Ipsum has been the industry's standard dummy text.
+                    </p>
+                </div>
+                <div class="grid grid-cols-6 border py-8 mb-6">
+                    <div class="mx-auto my-auto"><img src="assets/images/react.png" alt="" /></div>
+                    <div class="col-span-5">
+                        <h3 class="font-extrabold text-xl">ReactJS</h3>
+                        <p class="py-1 pr-2">Lorem Ipsum is simply dummy text of the printing Lorem ipsum dolor sit amet consectetur. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <a class="border-b-2 border-black to-black" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-6 border py-8 mb-6">
+                    <div class="mx-auto my-auto"><img src="assets/images/node_js.png" alt="" /></div>
+                    <div class="col-span-5">
+                        <h3 class="font-extrabold text-xl">ReactJS</h3>
+                        <p class="py-1 pr-2">Lorem Ipsum is simply dummy text of the printing Lorem ipsum dolor sit amet consectetur. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <a class="border-b-2 border-black to-black" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-6 border py-8 mb-6">
+                    <div class="mx-auto my-auto"><img src="assets/images/mogodb.png" alt="" /></div>
+                    <div class="col-span-5">
+                        <h3 class="font-extrabold text-xl">ReactJS</h3>
+                        <p class="py-1 pr-2">Lorem Ipsum is simply dummy text of the printing Lorem ipsum dolor sit amet consectetur. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <a class="border-b-2 border-black to-black" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- My next Target End -->
+
+            <!-- Footer Start -->
+            <div class="px-4">
+                <div class="h-80 grid items-center" style="background-image: url(assets/images/footer.png);">
+                    <div class="text-center my-auto">
+                        <h2 class="font-bold text-2xl text-white">I need Support</h2>
+                        <p class="pt-5 pb-5 text-zinc-300">
+                            Lorem Ipsum is simply dummy text of the printing and <br />
+                            typesetting industry.
+                        </p>
+                        <input class="py-2 mb-3 md:pr-36 pl-3 mr-3 rounded-md" type="text" placeholder="Suggest me any feedback for me" />
+                        <button class="py-2 px-7 rounded-md bg-white font-medium">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <!-- Under of the footer Start -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 h-20 bg-gray-50 items-center my-9 px-4 mx-auto max-w-screen-xl">
+                <div>
+                    <p class="font-medium text-center sm:text-left">An Open Commitment by Munir Hossain</p>
+                </div>
+                <div class="text-center sm:text-end">
+                    <a href="#"> <i class="text-blue-600 mr-5 text-4xl fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="text-gray-900 mr-5 text-4xl fa-brands fa-github"></i></a>
+                    <a href="#"> <i class="text-sky-600 text-4xl fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <!-- Under of the footer End -->
+
+            <script src="tailwind.config.js"></script>
         </div>
-    </div>
-
-      <div class="grid grid-cols-2 my-24 items-center">
-            <div class="mx-auto">
-                <h3 class="font-bold text-2xl">I will Do Coding and <br> Change The World</h3>
-                <p class="font-normal text-lg mt-4 mb-5">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
-                <button class="py-2 px-6 border">Learn More</button>
-            </div>
-            <div class="mx-auto">
-                <img src="assets/images/webdevelop1.png" alt="img">
-            </div>
-      </div>
-     </div>
-    <!-- webdevelopment End -->
-
-    <!-- My Inspiration Start -->
-    <div>
-        <div class="text-center mt-14">
-            <h2 class="font-bold text-3xl">Why Web Development??</h2>
-            <p class="font-normal text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br> Ipsum has been the industry's standard dummy text.</p>
-        </div>
-        <div class="">
-            <img src="assets/images/Inspiration.png" alt="img">
-        </div>
-    </div>
-    <!-- My Inspiration End -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     <script src="tailwind.config.js"></script>
-    </div>
-</body>
+    </body>
 </html>
